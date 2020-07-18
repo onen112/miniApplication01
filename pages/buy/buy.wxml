@@ -1,0 +1,69 @@
+<!--pages/buy/buy.wxml-->
+<view class="img">
+  <swiper indicator-dots="true">
+    <swiper-item>
+      <image class="shop_img" src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/119066/22/12303/107744/5f0c404cEe94a7a11/768d759fe04d1dda.jpg!q80.dpg.webp"></image>
+    </swiper-item>
+    <swiper-item>
+    <image class="shop_img" src="https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/26152/22/11602/57056/5c90e2e3E1237295f/d728fd54a0b444ac.jpg!q70.dpg.webp"></image>
+    </swiper-item>
+    <swiper-item>
+    <image class="shop_img" src="https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/27980/38/11622/53802/5c90e2e3E0d39791e/c130974fded81ddc.jpg!q70.dpg.webp"></image></swiper-item>
+
+    <swiper-item>
+    <image class="shop_img" src="https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/30321/22/6772/38047/5c90e2e4E1491cfe4/e81a9ca73c37c076.jpg!q70.dpg.webp"></image></swiper-item>
+
+    <swiper-item>
+    <image class="shop_img" src="https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/16061/1/11556/72672/5c90e2e4Eb4ed1f2d/e314072e8c845091.jpg!q70.dpg.webp"></image></swiper-item>
+  </swiper>
+</view>
+
+<view class="price">
+  <view class="price_num">￥499.00</view>
+  <view class="collect">收藏</view>
+  <view class="remind">降价提醒</view>
+</view>
+
+<view class="inf">
+  <image class="label" src="https://img13.360buyimg.com/jdphoto/s91x28_jfs/t1/31570/10/2824/1612/5c6e6034E84ec0355/2e9283a704911c95.png"></image>
+  <view class="inf_text">Reebok锐步男子复古篮球鞋BB4500HI2潮流高帮休闲鞋CN6856 CN6856-白色/蓝色 40.5
+  </view>
+
+  <view class="discount">
+    7.19-7.21限时折上85折，领券满300-30，满499-70，首页更有大额券可领取，部分单品可用。进首页领券 
+  </view>
+</view>
+
+<view class="discount_hear">
+  <view class="dis_text">优惠</view>
+  <image class="coupon" src="https://yanxuan.nosdn.127.net/9b77e61a774e8b4c6f38d3f2e320d56b.png"></image>
+</view>
+
+<view class="buy_inf">
+  <view class="select">
+    <view class="select_title">已选</view>
+    <view class="select_inf"><span id="skuChoose1">CN6856-白色/蓝色，40.5，1个</span></view>
+  </view>
+  <view class="address">
+    <view class="address_title">送至</view>
+    <view class="address_inf">北京朝阳区三环到四环之间</view>
+  </view>
+  <view class="freight"> 
+    <view class="freight_totle">运费</view>
+    <view class="freight_inf">在线支付免运费</view>
+  </view>
+</view>
+<view class="prompt">
+<view class="prompt01">
+  <text class="iconfont .icon-duihao"></text>
+  <text>商家发货&售后</text>
+</view>
+<view class="prompt01">
+  <text class="iconfont .icon-duihao"></text>
+  <text>七天无理由退货</text>
+</view>
+<view class="prompt01">
+  <text class="iconfont .icon-duihao"></text>
+  <text>送运费险</text>
+</view>
+</view>

@@ -1,0 +1,42 @@
+/* components/xiaoyuan/xiaoyuan.wxss */
+.xiaoyuan{
+  height: 460rpx;
+  width: 320rpx;
+  margin-left: 4rpx;
+  background-color: #fff;
+  display: inline-block;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.xiaoyuan 
+.imag,
+.imag1,
+.imag2,
+.imag3{
+  height: 120rpx;
+  width: 120rpx;
+}
+.head{
+  font-size: 32rpx;
+  font-weight: 700;
+  line-height: 45rpx;
+  color: #6f86d6;
+}
+.expl,.expl1{
+  font-size: 24rpx;
+  color: #666771;
+}
+.imag,
+.imag1{
+  margin: 11rpx 14rpx auto; 
+}
+
+.v-2,.v-3{
+  display: inline-block;
+  margin-right: 24rpx;
+  margin-top: 20rpx;
+}
+.head2{
+  font-size: 32rpx;
+  font-weight: 700;
+}

@@ -1,0 +1,45 @@
+/* components/commodity/commodity.wxss */
+.commodity{
+  height: 518rpx;
+  background-color: #fff;
+  width: 352rpx;
+  display: inline-block;
+  margin: 4rpx;
+}
+.image{
+  width: 352rpx;
+  height: 352rpx;
+}
+.image2{
+  width: 92rpx;
+  height: 26rpx;
+  margin: 0 8rpx 0 0 ; 
+}
+.image3{
+  width: 47rpx;
+  height: 26rpx;
+  margin: 0 8rpx 0 0 ; 
+}
+.inf{
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+}
+.price{
+  color: #ff0000;
+  font-weight: 700;
+  display: inline-block;
+  font-style: 32rpx;
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+}
+.same{
+  float: right;
+  border: 1rpx solid #ccc;
+  margin-right: 20rpx;
+  color: #777;
+  padding: 6rpx;
+}

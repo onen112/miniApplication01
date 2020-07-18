@@ -1,0 +1,6 @@
+<!--components/everyshop/everyshop.wxml-->
+<view class="every_shop" wx:for="{{everyshop}}">  
+  <view class="head">{{item.head}}</view>
+  <view class="expl">{{item.expl}}</view>
+  <image class="image" src="{{item.image}}"></image>
+</view>

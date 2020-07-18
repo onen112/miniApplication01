@@ -1,0 +1,56 @@
+/* pages/setting/setting.wxss */
+.account{
+  height: 282rpx;
+  background-color: #fff;
+}
+.my_account{
+  font-size: 32rpx;
+  color: #333;
+  padding: 20rpx;
+  
+}
+.my_inf{
+  height: 180rpx;
+  width: 710rpx;
+  margin: 0 auto;
+  border: 2rpx solid #ff414e;
+  border-radius: 20rpx;
+  background-color: #fff9f9;
+}
+.image{
+  height: 110rpx;
+  width: 110rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 30rpx 40rpx;
+  display: inline-block;
+}
+.nickName{
+  display: inline-block;
+  position: absolute;
+  margin-top: 60rpx;
+}
+ .add{
+   margin-top: 30rpx;
+   padding-left: 20rpx;
+   font-size: 32rpx;
+   height: 88rpx;
+   line-height: 88rpx;
+   color: #333;
+   background-color: #fff;
+ }
+ .my_add,.app_version{
+    font-size: 24rpx;
+    color: #999;  
+    float: right; 
+    margin-right: 20rpx;
+ }
+ .about_app{
+   height: 88rpx;
+   font-size: 32rpx;
+   line-height: 88rpx;
+   background-color: #fff;
+    margin-top: 30rpx;
+    padding-left: 20rpx;
+    color: #333;
+ }

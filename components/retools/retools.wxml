@@ -1,0 +1,9 @@
+<!--components/retools.wxml-->
+<view class="retools">
+  <view wx:for="{{toolList}}" class="rotools_box">
+    <view class="rotools_main">
+      <image src="{{item.img}}" style="width:70rpx;height:70rpx"></image>
+      <view>{{item.name}}</view>
+    </view>    
+  </view>
+</view>

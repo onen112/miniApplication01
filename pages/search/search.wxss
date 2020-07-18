@@ -1,0 +1,56 @@
+/* pages/search/search.wxss */
+.search{
+  background-color: #fff;
+  height: 90rpx;
+  border: 2rpx solid #ccc;
+}
+.search navigator{
+  float: left;
+  font-size: 40rpx;
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+}
+.search .input_text{
+  height: 60rpx;
+  width: 400rpx;
+  margin-top: 17rpx;
+  background-color: #f7f7f7;
+  border-radius: 30rpx;
+  padding-left: 40rpx;
+  display: inline-block;
+  margin-left: 65rpx;
+}
+.search button{
+  float: right;
+  margin-top: 15rpx;
+  margin-right: 30rpx;
+}
+.hot_search{
+  height: 300rpx;
+  width: 100%;
+  background-color: #fff;
+}
+.t-head{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  height: 300rpx;
+  width: 100%;
+}
+.hot_search .t-head .t1{
+  font-size: 32rpx; 
+  margin-bottom: 15rpx;
+}
+.hot_search .t-head .item{
+  width: 100%;
+  height: 230rpx;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.hot_search .t-head .item .item_hot{
+  background-color: #f7f7f7;
+  padding: 10rpx 30rpx;
+  border-radius: 20rpx;
+  height: 30rpx;
+}

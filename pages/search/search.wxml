@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+  <navigator url="/pages/index/index" open-type="switchTab" class="iconfont icon-fanhui">
+  </navigator>
+  <input absoute="0" type="text" class="input_text" placeholder="{{search}}"></input>
+  <button type="primary" size="mini">搜索</button>
+</view>
+<view class="hot_search">
+  <view class="t-head">
+    <view class="t1">热门搜索</view>
+      <view  class=" item">
+        <view class="item_hot" wx:for="{{hotSearc}}" >
+          <text bindtap="click" data-text="{{item}}">{{item}}</text>
+        </view>
+    </view> 
+  </view>  
+</view>

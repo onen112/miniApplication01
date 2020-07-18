@@ -1,0 +1,23 @@
+/* components/everyshop/everyshop.wxss */
+
+.every_shop{
+  height: 227rpx;
+  width: 155rpx;
+  background-color: #fff;
+  padding: 13rpx 0 10rpx 20rpx;
+  display: inline-block;
+  margin: 1rpx;
+}
+.every_shop .image{
+  width: 120rpx;
+  height: 120rpx;
+}
+.head{
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #ff0844;
+}
+.expl{
+  font-style: 22rpx;
+  color: #222;
+}

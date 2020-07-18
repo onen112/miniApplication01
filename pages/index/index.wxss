@@ -1,0 +1,49 @@
+/* view{
+  color:var(--themeColor);
+} */
+swiper-item{
+  margin: 10rpx auto;
+  margin-left:25rpx;
+}
+swiper-item image{
+  width: 700rpx;
+  height: 250rpx;
+}
+.promote image{
+  height: 240rpx;
+  width: 355rpx;
+}
+.promote{
+  padding: 20rpx;
+}
+
+.new_promote image{
+  height: 100rpx;
+  width: 750rpx;
+}
+.commodity image,
+
+.everyshop .image_title{
+  width: 750rpx;
+  height: 70rpx;
+}
+.xiaoyuan{
+  width: 700rpx;
+  margin:0 auto ;
+  margin-bottom: 20rpx;
+}
+.everyshop_main{
+  width: 710rpx;
+  margin: 0 auto;
+}
+.recommend_title .re_image{
+  width: 710rpx;
+  margin: 0 20rpx;
+  margin-top: 20rpx;
+  
+  height: 70rpx;
+}
+.comSetting{
+  width: 720rpx;
+  margin: 10rpx auto;
+}

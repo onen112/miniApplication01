@@ -1,0 +1,16 @@
+<!-- components/commodity/commodity.wxml -->
+<view class="commodity" wx:for="{{commodity}}">
+<navigator url="../../pages/buy/buy">
+  <image class="image" src="{{item.image}}"></image>
+  <view class="inf">
+    <image class="{{item.image2==='https://yanxuan.nosdn.127.net/2056d10dfb5c20c93de9c2ba179ba058.png'?'image2':'image3'}}" src="{{item.image2}}"></image>
+    <text data-text="{{item.inf}}" class="text_inf" bindtap="inf">{{item.inf}}</text>
+  </view>
+  <view class="price">
+  {{item.price}}
+  </view>
+  <view class="same">
+    看相似
+  </view>
+</navigator>
+</view>

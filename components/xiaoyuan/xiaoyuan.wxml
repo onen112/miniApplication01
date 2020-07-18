@@ -1,0 +1,21 @@
+<!-- components/xiaoyuan/xiaoyuan.wxml -->
+<view wx:for="{{xiaoyuan}}" class="xiaoyuan">
+<view class="v-1">
+  <view class="head">{{item.head}}</view>
+  <view class="expl">{{item.expl}}</view>
+  <image class="imag" src="{{item.imag}}"></image>
+  <image class="imag1" src="{{item.imag1}}"></image>
+</view>
+
+<view class="v-2">
+  <view class="head2">{{item.head2}}</view>
+  <view class="expl1">{{item.expl2}}</view>
+  <image class="imag2" src="{{item.imag2}}"></image>
+</view>
+
+<view class="v-3">
+  <view class="head2">{{item.head3}}</view>
+  <view class="expl1">{{item.expl3}}</view>
+  <image class="imag3" src="{{item.imag3}}"></image>
+</view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/user/user.wxml-->
+
+<view class="user" wx:if="{{isShow}}">
+  <image src="https://shop.io.mi-img.com/app/shop/img?id=shop_af8c4554afd775ab5f463fd73cc39543.png"></image>
+    <view>您尚未登陆
+    </view>
+  <button  size="mini" open-type="getUserInfo"  bindgetuserinfo="getUserInfo" >一键登录</button>
+</view>
+<view class="userLogin" wx:if="{{isLogin}}" wx-for="{userInfo}">
+  <image src="{{userInfo.avatar}}" mode="aspectFit"></image>
+  <view>Hi~ {{userInfo.name}}</view>
+</view>
+<navigator class="setting" url="../setting/setting" wx:if="{{isLogin}}">
+<icon class="iconfont icon-shezhi-copy setting-font"></icon>
+</navigator>
+
+<view class="myShop">
+  <retools toolList="{{toolList01}}"></retools>
+</view>
+<view class="myShop_mind">
+  <view wx:for="{{shop_mind}}">
+    <view class="mind_num">{{item.num}}</view>
+    <view class="mind_name">{{item.name}}</view>
+    <view>
+    </view>
+  </view>
+</view>
+<view class="otherTools">
+  <retools toolList="{{toolList02}}"></retools>
+</view>
+

@@ -1,0 +1,23 @@
+<!--pages/category/category.wxml-->
+<view class="search">
+  <search>
+  </search>  
+</view> 
+<view class="cate_left">
+  <view class="cate_text" wx:for="{{category}}">
+    <view data-text="{{item.text}}" class="cate_text_item {{item.isActive?'active':''}}" bindtap="click">{{item.text}}</view>
+  </view>
+</view>
+
+<view class="cate_right">
+  <view class="title">
+    <view class="cate_title">{{title}}</view>
+    <view class="ranking">排行榜</view>
+  </view> 
+  <view class="body">
+    <view class="cate_body" wx:for="{{cateArr}}">
+      <image class="cate_img" src="{{item.img}}"></image>
+      <view>{{item.name}}</view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,116 @@
+/* pages/buy/buy.wxss */
+.shop_img{
+  height: 700rpx;
+  width: 750rpx;
+}
+swiper{
+  height: 700rpx;
+  width: 750rpx;
+}
+.price{
+  height: 100rpx;
+  background-color: #fff;
+}
+.price_num{
+  font-weight: 700;
+  color: #ff1111;
+  font-size: 50rpx;
+  float: left;
+  margin-top: 20rpx;  
+  margin-left: 30rpx;
+}
+.collect,.remind{
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+  border: 2rpx solid #ccc;
+  padding: 8rpx ;
+}
+.inf{
+  height: 220rpx;
+  width: 700rpx;
+  padding: 24rpx 36rpx;
+  background-color: #fff;
+
+
+}
+.label{
+  height: 26rpx;
+  width: 85rpx;
+  float: left;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+}
+.inf_text{
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.discount{
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 32rpx;
+}
+
+.discount_hear{
+  height: 106rpx;
+  margin-top: 24rpx;
+  background-color: #fff;
+  line-height: 106rpx;
+  color: #333;
+  font-weight: 700;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  border-radius: 5%;
+}
+.dis_text{
+  display: inline-block;
+  position: absolute;
+}
+.coupon{
+  height: 40rpx;
+  width: 160rpx;
+  margin-top: 35rpx;
+  margin-left: 80rpx;
+}
+.buy_inf{
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding-left: 30rpx;
+}
+.select,
+.address,
+.freight{
+  height: 140rpx;
+  line-height: 140rpx;
+  border-bottom: 2rpx solid #fafafa;
+}
+.select_title,
+.address_title,
+.freight_totle{
+  font-size: 30rpx;
+  font-weight: 700;
+  display: inline-block;
+}
+.select_inf,
+.address_inf,
+.freight_inf{
+  display: inline-block;
+  font-size: 26rpx;
+  color: #333;
+  margin-left: 20rpx;
+}
+.prompt{
+  background-color: #fafafa;
+  text-align: center;
+  margin-bottom: 100rpx;
+  padding-bottom: 10rpx;
+}
+.prompt01{
+  display: inline-block;
+}
+.icon-duihao{
+  color: #ff1111;
+  margin-right: 10rpx;
+  margin-left: 8rpx;
+}
+

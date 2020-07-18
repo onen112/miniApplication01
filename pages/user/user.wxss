@@ -1,0 +1,77 @@
+/* pages/user/user.wxss */
+button{
+  background-color: #ff0000;
+  color: #fff;
+}
+view image{
+  width: 200rpx;
+  height: 180rpx;
+}
+.user{
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.user view{
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.userLogin image{
+
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  margin-right: 50rpx;
+}
+.userLogin{
+  background: linear-gradient(90deg,#eb3c3c,#ff7459);
+  color: #fff;
+  font-weight: 600;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding:20rpx 0;
+  padding-left: 100rpx;
+  border-radius: 0 0 30rpx 30rpx;
+  
+}
+.userLogin view{
+  display: inline-block;
+}
+.myShop{
+  margin-top: 30rpx;
+}
+.myShop_mind{
+  text-align: center;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding:20rpx 0;
+  margin-top: 30rpx;
+}
+.myShop_mind view .mind_num{
+  font-weight: 700;
+  font-size: 32rpx;
+}
+.myShop_mind view .mind_name{
+  color: #666666;
+}
+.otherTools{
+  margin-top: 20rpx;
+  padding:20rpx 0;
+}
+.setting{
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  color: #999;
+}
+.setting-font{
+  font-size: 50rpx;
+  color: #555
+}

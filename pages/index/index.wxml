@@ -1,0 +1,55 @@
+<view>
+  <search>
+  </search>  
+</view>
+<view>
+  <swiper indicator-dots="true" autoplay="true" style="height:250rpx" interval="3000"
+  indicator-active-color="#fff" circular="true">
+    <swiper-item><image src="https://ae01.alicdn.com/kf/Hcae81c7a609f4eb0937ebde149a2918bN.jpg"></image>
+    </swiper-item>
+    <swiper-item><image src="https://ae01.alicdn.com/kf/Hc631b97b8d104e0991078113649dff5eU.jpg"></image></swiper-item>
+    <swiper-item><image src="https://ae01.alicdn.com/kf/H572db9bd746643cfba741c8f791ce9ec3.jpg"></image></swiper-item>
+    <swiper-item><image src="https://ae01.alicdn.com/kf/He9db0278ec3f4c3d9b10a36c22432cb8N.jpg"></image></swiper-item>
+    <swiper-item><image src="https://ae01.alicdn.com/kf/H65639d85239f4465857fdb3b87e3cff0G.jpg"></image></swiper-item>
+  </swiper>
+</view>
+<view style="margin-top:20rpx">
+  <retools toolList="{{toolList}}"></retools>
+</view>
+
+<view class="promote">
+  <image src="https://shop.io.mi-img.com/app/shop/img?id=shop_ad8289e6c385e6bba1e09ab7cdaf8019.png"></image>
+  <image src="https://shop.io.mi-img.com/app/shop/img?id=shop_4879427528e353cf55232f2db75f5e3f.png"></image>
+</view>
+
+<view class="new_promote">
+  <image src="https://m.360buyimg.com/mobilecms/s750x100_jfs/t1/111655/4/10853/142323/5ef22455Eb86abfc1/2bf122bb2e87d6e3.png.webp"></image>
+</view>
+
+<view class="commodity">
+  <image src="https://m.360buyimg.com/mobilecms/s750x80_jfs/t1/120788/8/5449/24646/5ef008ccEa30f561d/b59f6d8807cfb020.png!q70.jpg.dpg"></image>
+</view>
+
+<view class="xiaoyuan" >
+  <xiaoyuan xiaoyuan="{{inf_xiaoyuan01}}"></xiaoyuan>
+  <xiaoyuan xiaoyuan="{{inf_xiaoyuan02}}"></xiaoyuan>
+</view>
+
+<view class="everyshop">
+  <image class="image_title" src="https://m.360buyimg.com/mobilecms/s750x80_jfs/t1/118793/9/10620/23804/5ef008fbE5d9a21ec/55f3eb03ac9e05a4.png!q70.jpg.dpg"></image>
+  <view class="everyshop_main">
+    <everyshop everyshop="{{everyshopArr}}">
+    </everyshop>
+  </view>
+</view>
+
+<view class="recommend_title">
+  <image class="re_image"  src="https://img11.360buyimg.com/jdphoto/jfs/t1/31601/22/15554/14040/5cc2a86fEbdb1098b/88174b36f85283b6.png"></image>
+</view>
+
+<view class="comSetting">
+
+    <commodity commodity="{{comArr}}"></commodity>
+
+</view>
+

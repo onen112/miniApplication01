@@ -1,0 +1,5 @@
+<!--pages/address/address.wxml-->
+<view wx:for="{{add}}" class="address">
+  <view class="name">{{item.name}} {{item.pNumber}}</view>
+  <view class="add">{{item.add}}</view>
+</view>
