@@ -1,18 +1,25 @@
 // pages/buy/buy.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+      com_buy:[],
   },
-
+  test:function(){
+    console.log(app.data.test)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function (options) { 
 
+    this.setData({
+      com_buy:app.data.comArr[app.data.index],
+    })
+    console.log(this.__data__.com_buy);  
   },
 
   /**

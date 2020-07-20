@@ -140,7 +140,6 @@ Page({
   },
 
   click:function(e){
-
     console.log(e.currentTarget.dataset.text);
     var click =  e.currentTarget.dataset.text;
     var newCategory = this.__data__.category;

@@ -1,4 +1,5 @@
 // components/commodity/commodity.js
+const app = getApp();
 Component({
   /**
    * 组件的属性列表
@@ -18,6 +19,13 @@ Component({
   /**
    * 组件的方法列表
    */
+ 
   methods: {
-  }
+    showCommodity:function(e){
+      console.log("000000000000");     
+      console.log(e.currentTarget.dataset.index);
+      app.data.index = e.currentTarget.dataset.index;
+      console.log(app.data.index);    
+    }
+    }
 })
