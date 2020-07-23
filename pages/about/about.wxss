@@ -1,0 +1,10 @@
+.title{
+  font-weight: 600;
+  font-size: 36rpx;
+  text-align: center;
+}
+.about_me{
+  margin-top: 32rpx;
+  text-indent: 2em;
+  font-size: 30rpx;
+}

@@ -1,0 +1,5 @@
+<!--pages/about/about.wxml-->
+<view class="title">关于该小程序</view>
+
+<view class="about_me" wx:for="{{aboutArr}}"><text >{{index+1}}.{{item}}</text></view>
+
